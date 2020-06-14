@@ -1,0 +1,17 @@
+<view class="mask-container">
+  <view class="mask {{maskAnimation}}" catchtouchmove="preventdefault"></view>
+</view>
+
+<view class='menu-container' catchtouchmove="preventdefault" catchtap="preventdefault" hidden='{{isFold}}'>
+  <view class='menu'>
+    <view class='menu-list'>
+      <navigator class='menu-item' wx:for='{{navs}}' wx:key="index" style="width:{{navs.length>=4?'25':100/navs.length}}%;justify-content:{{navs.length>=4?'flex-start':'center'}};animation-delay: {{(index+1)*0.1}}s;" url="{{item.url}}">
+        <image mode='widthFix' src='{{item.src}}' class="menu-icon"></image>
+        <text class='menu-name'>{{item.name}}</text>
+      </navigator>
+    </view>
+  </view>
+</view>
+<view class="btn-container">
+  <view catchtap="onClickAdd" class="btn-main {{btnAnimation}}">+</view>
+</view>

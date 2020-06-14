@@ -1,0 +1,4 @@
+<view>
+  <image src="https://cdn.nlark.com/yuque/0/2019/jpeg/280373/1552318561105-assets/web-upload/b26e6c0c-9760-4f68-9d53-73fa4653246d.jpeg" style="width:100%" mode="widthFix"></image>
+  <menu navs="{{navs}}" />
+</view>
