@@ -1,0 +1,7 @@
+{
+	"usingComponents": {
+		"menu": "/components/navs-bong/navs-bong"
+	},
+	"navigationStyle": "custom",
+	"navigationBarTextStyle": "white"
+}

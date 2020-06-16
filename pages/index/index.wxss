@@ -1,0 +1,6 @@
+page {
+  background-image: url(https://imgkr.cn-bj.ufileos.com/17c6635f-2523-413e-80af-8f6f1c8a9a97.png);
+  background-size: cover;
+	background-repeat: no-repeat;
+	--add-action:#39b54a;
+}

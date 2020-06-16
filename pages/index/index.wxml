@@ -1,0 +1,3 @@
+<view>
+  <menu navs="{{navs}}" />
+</view>
