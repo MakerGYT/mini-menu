@@ -12,14 +12,14 @@
 ```sh
 git clone https://github.com/MakerGYT/mini-menu.git
 ```
-将项目中/components/menu文件夹拷贝到组件路径下
+将项目中/components/navs-bong文件夹拷贝到组件路径下
 
 ### 2. 引入组件
 在使用该组件的页面对应json文件中添加：
 ```json
 {
   "usingComponents": {
-    "menu":"/components/menu/menu" 
+    "menu":"/components/navs-bong/navs-bong" 
   }
 }
 ```
